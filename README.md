@@ -4,26 +4,11 @@
 
 ### Student number: 47159375
 
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
-
-## 1. Player Experience (~700 words)
-
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
+## 1. Player Experience
 
 ### 1.1. Discovery
 
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
-The player learns through attempting encounters and making mistakes, Mistakes are not heavily punished for the majority of the level.Often the player is able to find healing nearby if they make a mistake on the first attempt of an encounter. This allows the player to be experimental with their approach to encounters and build up a repertoire of skills to utilize as the difficulty curve increases throughout the level. This only changes before the final encounter where very few-no(depending if the player has already used it to beat earlier sections of the level) health packs are provided. By this time however, the player will have encountered all the elements of the final encounter previously in small groups or individually and as such should be able to utilize the skills discovered to overcome this challenge.
+The player learns through attempting encounters and making mistakes. Mistakes are not heavily punished for the majority of the level. Often the player is able to find healing nearby if they make a mistake on the first attempt of an encounter. This allows the player to be experimental with their approach to encounters and build up a repertoire of skills to utilize as the difficulty curve increases throughout the level. This only changes before the final encounter where very few-no(depending if the player has already used it to beat earlier sections of the level) health packs are provided. By this time however, the player will have discovered all the elements of the final encounter previously and can use the developed skills to overcome this fight.
 
 #### Initial Encounters
 
@@ -39,7 +24,7 @@ The player learns through attempting encounters and making mistakes, Mistakes ar
 
 ### 1.2. Drama
 
-The intensity curve begins low in section one before increasing into the second section of the map as complex platforming and combat mechanics are combined. The curve continues to increase as the player progresses through section 2. Once the player obtains the section 2 key the intensity shifts down significantly into a space of calm where the player can reassess the situation before continuing. Section 3 picks the intensity back up by increasing the number of environmental hazards, making the platforming more claustrophobic, forcing higher precision and increasing the number of enemies. The intensity once again ebbs after the player retrieves the section 3 key and rises back up to section 2 to complete the final enemy gauntlet before the finish. This final gauntlet now open to the play represents the peak of intensity within this level. forcing a relatively low health player to combat a mixed array of enemies in a small area whilst platforming across. If the player makes it through or clears this area the intensity drops significantly and the player is able to calmly approach the finish and win the level.
+The intensity curve begins low in section one before increasing into the second section of the map as complex platforming and combat mechanics are combined. The curve continues to build as the player progresses through section 2. Once the player obtains the section 2 key the intensity shifts down significantly into a space of calm where the player can reassess the situation before continuing. Section 3 picks the intensity back up, increasing the number of environmental hazards, making the platforming more claustrophobic, forcing higher precision, and increasing the number of enemies. The intensity ebbs after the player retrieves the section 3 key and returns to section 2. The final gauntlet is now open to the player representing the peak of intensity within this level. it forces a potentially low health player to combat a mixed array of enemies in a small area whilst platforming. When the player passes this encounter the intensity drops significantly and the player is able to calmly approach the finish and win the level.
 
 #### Only One Accessible Health Before Final Encounter
 
@@ -47,8 +32,7 @@ The intensity curve begins low in section one before increasing into the second 
 
 ### 1.3. Challenge
 
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
-The main challenges as they are introduced are
+The main challenges as they are introduced are:
 
 -   Complex Platforming with limited punishment
     <br>
@@ -66,21 +50,15 @@ The main challenges as they are introduced are
     <br>
     ![Final Room](DocImages/FinalRoom.png)
 
-This progression through the different encounters and environment allows the player to build their skills as they go so as to avoid overstraining the player with sudden difficulty spikes whilst preventing boredom by providing a steady increase in the level's difficulty as the player progresses. This prevents the player being forced out of flow through frustration or through boredom.
+This progression through the different encounters and environment allows the player to build their skills as they go so as to avoid overstraining the player with sudden difficulty spikes whilst preventing boredom by providing a steady increase in the level's difficulty as the player progresses. This prevents the player being forced out of flow through frustration or boredom.
 
 ### 1.4. Exploration
 
-Exploration is enabled through the non-linear approach to level design. As displayed in the below diagram there are three main ways of traversing and completing the level. Blue is the most obvious and likely chosen path by individuals, Red provides an increased difficulty spike and largely skips the gun pickup but also can skip the final battle. Yellow is the same path as red except instead of going through the final battle before section two. Yellow is the most difficult path as it means the player will face the final battle before receiving the gun and also before additional practice the level provides. Exploration is further encouraged through the fact that small branches within encounters and sections are made either to increase/decrease or change the type of encounter in a section or to find pickups like health in places off the beaten paths, additionally their is a shortcut route right into the room of the section 3 key via destructible blocks. In addition to the many paths that players can take there is a distinct difference in look between the sections with section 1 being at ground level, section 2 being up in the clouds, and section 3 being underground, making them all feel like distinct places within the same world.
+Exploration is enabled through the non-linear approach to level design. As displayed in the below diagram there are three main ways of traversing and completing the level. Blue is the most obvious and likely chosen path by individuals, Red provides an increased difficulty spike and largely skips the gun pickup but also can skip the final battle. Yellow is the same path as red except attacking the final battle early before section two. Exploration is further encouraged through small branches within encounters and sections are made either to alert intensity or type of an encounter, or to find pickups like health in places off the beaten path, additionally there is a shortcut route right into the section 3 key room via destructible blocks. In addition to the many paths that players can take there is a distinct difference in look between the sections with section 1 being at ground level, section 2 being up in the clouds, and section 3 being underground, making them all feel like distinct places within the same world.
 <br>
 ![Routes through the level](DocImages/MoleculeDiagramWithPaths.jpg)
 
-## 2. Core Gameplay (~400 words)
-
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
+## 2. Core Gameplay
 
 ### 2.1. Acid, Vertical Moving Platforms, Chompers, Health Pickups, Spikes
 
@@ -114,11 +92,11 @@ The only encounter where only one new mechanic is introduced, this encounter is 
 
 ### 3.2. Level Map – Section 1
 
-![Section One With Mark Up](DocImages/FinalSection1MarkedUp.jpg)
+![Section One With MarkUp](DocImages/FinalSection1MarkedUp.jpg)
 
 ### 3.3. Level Map – Section 2
 
-![Section Two With Mark Up](DocImages/FinalSection2Markedup.jpg)
+![Section Two With MarkUp](DocImages/FinalSection2Markedup.jpg)
 
 ### 3.4. Level Map – Section 3
 
@@ -134,13 +112,13 @@ The only encounter where only one new mechanic is introduced, this encounter is 
 
 #### Final Level Design
 
-![Original Level Design](DocImages/FinalFullLevel.png)
+![Final Level Design](DocImages/FinalFullLevel.png)
 
 The original design of the level was much simpler and was able to provide a basic outline of how the overall level would be structured and provide inspiration for the aesthetic themes (Clouds, Ground level, Underground) of the different sections. However Upon completing of the level and play testing I found that despite it being able to be completed in a non-linear fashion, it had a number of flaws
 
--   It was much too short only taking me about 2 minutes
--   Whilst technically non-linear it felt linear, as there were few branching options within sections and little need to explore.
--   It was far too easy in some sections and far too frustratingly unforgiving in others, with certain obstacles or encounters being difficult but in such a way that it made the player feel cheated or that it would only be luck that determined the outcome not player skill.
+-   It was much too short
+-   It felt linear, as there were few branching options within sections and little need to explore.
+-   It was far too easy in some sections and far too frustratingly unforgiving in others, with certain obstacles or encounters being difficult simply because if you were unlucky you died.
 
 I therefore decided to iterate each section of the level one at a time in order to build specifically upon the themes and specific challenges I wanted to provide for each section whilst increasing their interconnectability and the number of ways a player could approach each section. During this time I also ensured to iteratively build each encounter in order to provide the correct level of intensity and difficulty for each and ensured that when a player died it didn't feel as if it was out of their control, allowing the player to learn from each death.
 
